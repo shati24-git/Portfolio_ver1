@@ -34,18 +34,18 @@ $(function () {
   };
 
     // Mobile Menu Toggle Setting
-    var mobileMenu = $('#gnb');
-    var mobileBtn = $('.navbar-header button');
+    // var mobileMenu = $('#gnb');
+    // var mobileBtn = $('.navbar-header button');
   
-    mobileMenu.mouseleave(function(){
-      $(this).animate({'height': 0}, 800, function(){
-        $(this).removeClass('in');
-      }).children().children('li').removeClass('active');
-      mobileBtn.css('background', 'transparent');
-    });
-    mobileBtn.mouseenter(function(){
-      $(this).css('background', '#ddd');
-    });
+    // mobileMenu.mouseleave(function(){
+    //   $(this).animate({'height': 0}, 800, function(){
+    //     $(this).removeClass('in');
+    //   }).children().children('li').removeClass('active');
+    //   mobileBtn.css('background', 'transparent');
+    // });
+    // mobileBtn.mouseenter(function(){
+    //   $(this).css('background', '#ddd');
+    // });
 
 
   // Typeit JS Call
@@ -177,7 +177,7 @@ $(function () {
   // 탭메뉴 설정
   var 
     tabMenu = $('.tab-wrap>ul>li>a'),
-   
+
     tabContent = $('.tab-wrap .tab-content'),
     progressBar1 = ('.progress-bar1'),
     progressBar2 = ('.progress-bar2'),

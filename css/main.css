@@ -275,15 +275,13 @@ body {
 }
 
 #about ul {
-  width: 100%; height: 60vh;
+  width: 100%; height: 600px;
   background-color: #fff;
 }
 
 
 .tab-wrap img {
   height: 100%;
-
-  
   overflow: hidden;
 }
 
